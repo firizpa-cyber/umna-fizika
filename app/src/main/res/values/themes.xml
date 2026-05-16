@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.UmnaFizika" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:statusBarColor">#0D0F1A</item>
+        <item name="android:windowBackground">#0D0F1A</item>
+        <item name="android:navigationBarColor">#151828</item>
+    </style>
+
+    <!-- Splash screen theme. -->
+    <style name="Theme.UmnaFizika.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0D0F1A</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.UmnaFizika</item>
+    </style>
+</resources>
